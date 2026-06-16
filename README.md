@@ -78,18 +78,6 @@ chess/
 
 ---
 
-## 🌐 Deployment
-
-Deployed on **Railway** — [railway.app](https://railway.app)
-
-To deploy yourself:
-1. Push code to GitHub
-2. Go to [railway.app](https://railway.app)
-3. New Project → Deploy from GitHub
-4. Select your repo → Done!
-
----
-
 ## 👨‍💻 Author
 
 **Vrushali** — [GitHub](https://github.com/Vrushali20-cmd)
