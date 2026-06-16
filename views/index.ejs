@@ -6,13 +6,12 @@
     <title>Document</title>
      <style>
         .chessboard {
-            display: grid;
-            grid-template-columns: repeat(8, minmax(0, 1fr));
-            grid-template-rows: repeat(8, minmax(0, 1fr));
-            width: 400px;
-            height: 400px;
-            transform: rotate(0deg);
-        }
+    display: grid;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    grid-template-rows: repeat(8, minmax(0, 1fr));
+    width: min(80vw, 80vh);
+    height: min(80vw, 80vh);
+}
 
         .piece.white {
             color: white;
@@ -63,7 +62,7 @@
 </head>
 <body>
     <div class="w-full h-screen flex items-center justify-center bg-zinc-900">
-    <div id="chessboard" class="chessboard w-96 h-96 grid grid-cols-8 grid-rows-8 "></div>
+    <div id="chessboard" class="chessboard"></div>
     </div>
 
     <script src="https://cdn.socket.io/4.8.3/socket.io.min.js" 
